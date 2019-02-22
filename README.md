@@ -39,11 +39,10 @@ To launch the demo application, you can try below steps yourself on your compute
     npm install
     ```
 
-1. Run linting and unit test
+1. Run linting
 
     ```bash
     npm run lint
-    npm run test
     ```
 
 1. Start application in development mode
@@ -63,14 +62,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Profiling the Build
 
@@ -112,12 +103,9 @@ Before submitting a Pull Request for the  repository make sure to check the foll
   - Pull Request would be reviewed by me.
   - As a reviewers i`ll verify:
     - `npm run lint` should pass
-    - `npm run test` should pass
-    - Code coverage does not drop under 80%
     - Verify PR code changes works as expected by running it on local machine
     - No errors in the browser console
     - Review the code changes to makesure it is written as per Angular coding standard recommended in [angular.io](https://angular.io/) for syntax, conventions, and structuring Angular application.
-    - Review the test spec changes. Verify test specs covers both happy path and failure path like exceptional or error conditions.
     - Review if any changes needed to Readme prescription or any project documents
     - Review the changelog and application version
     - Delete the branch after merging back with the master branch.
