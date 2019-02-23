@@ -33,6 +33,26 @@ nav, article, aside {
   border-radius: 0.25em;
 }
 
+header {
+  background-color: #FFC0CB
+}
+
+nav {
+  background-color: #FFFF66
+}
+
+article {
+  background-color: #33FF33
+}
+
+aside {
+  background-color: #FF9933
+}
+
+footer {
+  background-color: #66B2FF
+}
+
 /* I went with a fixed height header & footer because it's a common case.
   This could easily be altered to flex proportionally with the page.
 */
