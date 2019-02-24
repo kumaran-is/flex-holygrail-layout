@@ -36,6 +36,7 @@ main {
   display:flex;
   flex-direction: row;
   flex: 1 0 auto;
+  padding-top: 80px;
 }
 
 /* some basic styles. nothing to do with flexbox */
@@ -98,13 +99,5 @@ nav {
 @media (max-width: 700px) {
   main{
     flex-direction: column;
-  }
-  nav {
-    max-height: 150px;
-    min-height: 150px;
-  }
-  aside {
-    max-height: 90px;
-    min-height: 90px;
   }
 }
